@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess_2021</title>
+    <link rel="stylesheet" href="CSS_ches.css">
+</head>
+<body>
+<nav class="Nav_one">
+    <div class="container">
+        <ul class="menu">
+            <li>
+                <a href="/" title="file">File</a>
+            </li>
+            <li>
+                <a href="/" title="edit">Edit</a>
+            </li>
+            <li>
+                <a href="/" title="history">History</a>
+            </li>
+            <li>
+                <a href="/" title="bookmarks">Bookmarks</a>
+            </li>
+            <li>
+            <a href="/" title="tools">Tools</a>
+            </li>
+            <li>
+            <a href="/" title="help">Help</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<table class="chessboard" border="5" cellpadding="=0">
+<tr>
+    <td class="black">&#9814;</td>
+    <td class="white">&#9816;</td>
+    <td class="black">&#9814;</td>
+    <td class="white">&#9816;</td>
+    <td class="black">&#9814;</td>
+    <td class="white">&#9816;</td>
+    <td class="black">&#9814;</td>
+    <td class="white">&#9816;</td>
+</tr>
+<tr>
+    <td class="white">&#9822;</td>
+    <td class="black">&#9820;</td>
+    <td class="white">&#9822;</td>
+    <td class="black">&#9820;</td>
+    <td class="white">&#9822;</td>
+    <td class="black">&#9820;</td>
+    <td class="white">&#9822;</td>
+    <td class="black">&#9820;</td>
+</tr>
+    <tr>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+    </tr>
+    <tr>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+    </tr>
+    <tr>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+    </tr>
+    <tr>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+    </tr>
+    <tr>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+        <td class="black">&#9814;</td>
+        <td class="white">&#9816;</td>
+    </tr>
+    <tr>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9820;</td>
+    </tr>
+</table>
+<button type="button" onclick="showMessage1()">Click me</button>
+<div id="messageDiv"></div>
+<button type="button" onclick="showMessage()">Click me</button>
+<button type="button" onclick="showMessage3()">Click me</button>
+<button type="button" onclick="showMessage4()">Click me</button>
+</body>
+<script>
+function showMessage1(){
+    alert('Xin chao');
+}
+function showMessage(){
+    document.getElementById('messageDiv').innerHTML = 'hello'
+}
+function showMessage3(){
+    document.write('xin chao');
+}
+function showMessage4(){
+    console.log('chao ban!!!')
+}
+</script>
+</html>
